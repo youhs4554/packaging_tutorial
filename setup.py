@@ -11,8 +11,8 @@ setup(
     description         = 'A small example package', # 짦은 소개
     author              = 'hossay', # 이름
     author_email        = 'youhs4554@gmail.com', # 메일 
-    url                 = 'https://github.com/TooTouch/tootorch', # github url
-    download_url        = 'https://github.com/TooTouch/tootorch/archive/v0.1.tar.gz', # release 이름
+    url                 = 'https://github.com/youhs4554/packaging_tutorial.git', # github url
+    download_url        = 'https://github.com/youhs4554/packaging_tutorial/archive/refs/tags/v0.1.tar.gz', # release 이름
     install_requires    =  ["torch"], # 패키지 사용시 필요한 모듈
     packages            = find_packages(exclude = []),
     keywords            = ['tootorch','XAI'], # 키워드
